@@ -1,0 +1,20 @@
+.venv/
+**/.venv/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+**/terraform.tfstate
+**/terraform.tfstate.*
+.terraform/
+**/.terraform/
+
+.terraform.lock.hcl
+**/.terraform.lock.hcl
+.terraform.tfstate.lock.info
+**/.terraform.tfstate.lock.info
+__pycache__
+**/__pycache__
+
+.python-version
+.DS_Store
